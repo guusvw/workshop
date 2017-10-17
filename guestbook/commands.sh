@@ -4,8 +4,6 @@ kubectl get rc
 
 kubectl get pods
 
-docker ps | grep redis
-
 kubectl create -f redis-master-service.yaml
 
 kubectl get services
